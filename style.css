@@ -240,6 +240,8 @@ h3 {
     .layer p {
         font-size: 15px;
     }
+    .layer h3 {
+        font-size: 20px;
 }
 
 /*------resources--------*/
@@ -538,6 +540,7 @@ h3 {
     }
     .blog-sect {
         flex-direction: column;
+        width: 300px;
     }
 }
 /*---------------------------------- resources --------------------------*/
@@ -649,4 +652,5 @@ h3 {
         padding: 10px;
         margin: 10px;
     }
+
 }
