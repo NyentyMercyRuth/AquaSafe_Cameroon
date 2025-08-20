@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaSafe Cameroon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/">
+    <link rel="icon" type="image/png" sizes="192×192" href="logo (2).png">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo (1).png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Resources.html">RESOURCES</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Cta.html">CALL TO ACTION</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+       <h1>Join The Effort To Create A lasting Impact Today</h1>
+    </section>
+    <section class="getinvolved">
+        <div class="join" id="donate">
+            <p>Several organizations, institutions, and facilities carry out scientific projects and research that help protect the ocean. 
+                These organizations need the financial support of individuals like you and me inorder to make their projects a success.<br>
+            Are you ready to be a changemaker? <br>
+        Are you ready to save the ocean?</p>
+        <button onclick="joinbutt()">Donate Now</button>
+        </div>
+        <div class="join" id="volunteer">
+            <p>Several organizations, institutions, and facilities carry out projects and shemes such as beach cleanups that help protect the ocean. 
+                These organizations are in need of volunteers inorder to make their projects a success.<br>
+            Are you ready to be a changemaker? <br>
+        Are you ready to save the ocean?</p>
+        <button onclick="joinbutt2()">Volunteer</button>
+        </div>
+        <div class="join" id="campaign">
+            <p>Several institutions carry out sensitization projects and campaigns that help protect the ocean. 
+                These organizations need the support of both individuals and organizations in campaigning inorder to spread the news of marine conservation further.<br>
+            Are you ready to be a changemaker? <br>
+        Are you ready to save the ocean?</p>
+        <button onclick="joinbutt3()">Campaign</button>
+        </div>
+    </section>
+    
+    <!-------footer-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are an online platform dedicated to the fight for marine conservation <br>
+            Contact us on other platforms
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Built by <i class="fa fa-heart-o"></i>nyentymercy1@gmail.com</p>
+    </section>
+    <script>
+        function joinbutt() {
+            const div = document.getElementById('donate');
+            div.innerHTML = 'This Feature Will Be Available Soon'
+        }
+        function joinbutt2() {
+            const div = document.getElementById('volunteer');
+            div.innerHTML = 'This Feature Will Be Available Soon'
+        }
+        function joinbutt3() {
+            const div = document.getElementById('campaign');
+            div.innerHTML = 'This Feature Will Be Available Soon'
+        }
+    </script>
+    <!-----javascript for toggle menu----->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

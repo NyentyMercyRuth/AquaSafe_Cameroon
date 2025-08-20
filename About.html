@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaSafe Cameroon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/">
+    <link rel="icon" type="image/png" sizes="192×192" href="logo (2).png">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo (1).png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Resources.html">RESOURCES</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Cta.html">CALL TO ACTION</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+       <h1>About Us</h1>
+    </section>
+
+    <!----------------------------------- about us content ------------->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are An Online Platform Dedicated To The Fight For Ocean Conservancy In Cameroon</h1>
+                <p>Aquasafe Cameroon is an initiative for marine conservation by N. Mercy-Ruth E. This website is solely for educational and digital sensitization purposes. 
+                    At Aquasafe Cameroon, our goal is to educate and inspire all individuals on the beauty and wonders that lie beneath the ocean. As Dr. Kamla, a prominent 
+                    marine conservationist in Cameroon once said, "Giving them a glimpse of what lies beneath the ocean has sparked their love and willingness to protect the species
+                    in their waters". This quote emphasizes the importance of immersive experiences through captivating photos and videos in fostering a deeper connection between people 
+                    and the Ocean. For truly, there is more to the ocean than we can imagine.
+                </p>
+                <a href="Blog.html" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="ocean2.jfif">
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-------footer-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are an online platform dedicated to the fight for marine conservation <br>
+            Contact us on other platforms
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Built by <i class="fa fa-heart-o"></i>nyentymercy1@gmail.com</p>
+    </section>
+
+    <!-----javascript for toggle menu----->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
